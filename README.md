@@ -29,3 +29,26 @@ How to Run and test the API:
 
  1) Start the Spring boot application by running main method in TestApplicatin.java
  2) Submit a POST request with below JSON to the endpoint /intersect running in port 8080.
+ 
+ {
+    "shapes": [
+        {
+            "coordinates": [
+                0,
+                0,
+                2,
+                4
+            ],
+            "name": "RectA"
+        },
+        {
+            "coordinates": [
+                2,
+                5,
+                7,
+                9
+            ],
+            "name": "RectB"
+        }
+    ]
+}
